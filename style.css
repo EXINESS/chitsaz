@@ -1,0 +1,120 @@
+html{
+	font-size:100%;
+	background-color:hsl(46, 56%, 52%, 0.7);
+}
+.main{
+	color:hsl(335, 83%, 20%);
+	border:3px solid hsl(24, 56%, 52%);
+	border-radius: 2em;
+	/**padding-left:1px;
+	padding-right:1em; **/
+	 display: flex;
+	justify-content: center;
+}
+.header{
+	width:100%;
+	background-color: hsl(24, 56%, 52%);
+}
+.back{
+	background-color:hsl(46, 56%, 52%);
+	padding:0;
+}	
+.explain{
+	text-shadow:1px 1px 2px hsl(222, 68%, 55%);
+	display:flex;
+	justify-content:center;
+	font-size: 120%;
+	padding-bottom:0.5em;
+	box-shadow:2px -2px 2px url('assets/Shid1000139www.tiktarh.com__11zon.webp ')
+}
+.img{
+	
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+    display: block;
+  margin: 0 auto;
+}
+/**.img1{
+	 border-radius: 50%;
+  width: 400px;
+  height: 400px;
+   display: block;
+  margin: 0 auto;
+   transform: scaleY(-1);
+    opacity: 0.5;
+  اینجا میخواستم برای عکس یه سایه درست کنم که نشد :(
+} **/
+.h3{
+	width:100%;
+	height: 5em;
+	background-color:hsl(16, 68%, 55%, 0.5);
+}
+h3{
+	display:flex;
+	justify-content:center;
+	padding-top:1.5em;
+	font-size: 120%;
+}
+a:link{
+	color:hsl(335, 83%, 20%);
+	text-decoration:none;
+}
+a:hover{
+	color:hsl(220, 83%, 20%);
+	text-decoration:none;
+}
+ul{
+	position: sticky;
+	list-style-type:none;
+	padding-right:0;
+	margin:0;
+	background-color:hsl(270, 83%, 70%);
+	
+}
+li{
+	padding:0.7em;
+	display:inline-block;
+	border-left:0.2em solid hsl(240, 83%, 70%);
+}
+li:hover{
+   background-color: hsl(190, 83%, 70%);
+}
+video{
+	 display: block;
+  margin: 0 auto;
+  width:50%;
+  height:30em;
+}
+h2{
+	display:flex;
+	justify-content:center;
+	padding-top:0.5em;
+}
+table{
+   border-collapse: collapse;
+   width:100%;
+   text-align: center;
+}
+
+table,th,td{
+	border: 5px solid hsl(190, 33%, 50%);
+}
+th{
+	height:3em;
+}
+.caption{
+	display:flex;
+	justify-content:center;
+	/**ولی اجرا نشد**/
+}
+.form{
+	background-color:hsl(310, 63%,80%);
+	margin-left:70%;
+}
+.footer{
+	background-image: url('assets/فتح+قله.webp');
+}
+footer>p{
+	margin-right:10px;
+}
